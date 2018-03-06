@@ -1,0 +1,1292 @@
+/** Generic laptop screen style **/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Baskerville, sans-serif;
+}
+
+nav {
+  width: 100%;
+  background-color: #003D71;
+  clear: right;
+  position: fixed;
+}
+
+#logo {
+  width: 153px;
+  float: left;
+}
+
+nav ul {
+  margin: 0 auto;
+  float: right;
+  font-family: "Gill Sans", sans-serif;
+}
+
+.navtabs {
+  display: inline-block;
+  font-size: 100%;
+  padding: 20px;
+}
+
+.navtabs a, .navtabs a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.navtabs a:hover {
+  background-color: #A2CB6B;
+  padding: 10px;
+}
+
+header {
+  display: block;
+}
+
+.homebanner img {
+  float: left;
+  display: block;
+  margin-top: 4.5%;;
+  width: 100%;
+}
+
+/**Form Styling**/
+form {
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 3%;
+  float: left;
+  background-color: #e6ac00;
+}
+
+form h1, legend, fieldset h2 {
+  text-align: center;
+}
+
+form p{
+  margin: 0 30px;
+}
+
+fieldset {
+  margin: 3%;
+  width: 90%;
+  border: 1px solid black;
+}
+
+legend {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/**Error Message styling credits to INFO 1300 Lab 11**/
+.labels-inputs {
+  margin: 20px;
+  padding: 0;
+  display: block;
+}
+
+.labels {
+  display: inline-block;
+  width: 45%;
+  text-align: right;
+  margin-right: 10px;
+}
+
+.inputs {
+  display: inline-block;
+}
+
+.errorBox {
+  background-color: red;
+  color: white;
+  border: 1px white solid;
+  font-size: 14px;
+  text-align: center;
+  border-radius: 3px;
+  margin-left: 10px;
+}
+/**End of adopted error message styling**/
+
+.star {
+  color: red;
+}
+
+.hiddenError {
+  display: none;
+}
+
+select {
+  border: 1px solid black;
+  display: inline-block;
+  margin-left: 40%;
+}
+
+.choice {
+  margin: 0 auto;
+}
+
+textarea {
+  display: block;
+  margin: 0 auto;
+  width: 40%;
+}
+
+.poll-buttons {
+  display: block;
+  margin: 2% auto;
+  width: 120px;
+}
+
+.poll-buttons input {
+  display: inline-block;
+  background: white;
+  border-radius: 5px;
+}
+
+#filled-out {
+  float: left;
+  margin-left: 3%;
+  margin-top: 3%;
+  margin-bottom: 20px;
+}
+
+#votes {
+  color: #B22222;
+  font-style: italic;
+}
+
+/** Comments **/
+table {
+  border: 1px solid black;
+  margin: auto;
+  width: 60%;
+}
+
+#field {
+  font-size: 20px;
+  text-align: center;
+  width: 23%;
+  border-right: 1px solid black;
+  padding: 0;
+  margin: 0;
+}
+
+#value {
+  font-size: 25px;
+  width: 70%;
+}
+
+#value p {
+  margin-left: 5%;
+  margin-top: 0;
+}
+
+.element {
+  margin: 0;
+  border-bottom: solid black 1px;
+}
+
+.address, .dates {
+  text-align: center;
+  font-size: 24px;
+  font-family: Arial, serif;
+  margin: 5px;
+}
+
+#when, #where{
+  width: 35%;
+  float: left;
+  margin-left: 10%;
+  margin-top: 25px;
+}
+
+.event-title {
+  text-align: center;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.date-heading, .place-heading {
+  width: 100%;
+}
+
+.date-heading img, .place-heading img{
+  width: 10%;
+  padding: 0 10px;
+  margin-right: 2%;
+}
+
+.place-heading img {
+  margin-left: 12%;
+}
+
+.date-heading img {
+  margin-left: 20%;
+}
+
+.address-box, .date-box {
+  margin: 0;
+  width: 100%;
+}
+
+.brief-description {
+  width: 100%;
+  float: left;
+  margin-top: 50px;
+  padding: 50px 0;
+  background-color: #CC5543;
+}
+
+.brief-description img {
+  padding-bottom: 30px;
+  display: block;
+  margin: auto;
+  width: 20%;
+}
+
+.brief-description h1 {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 0;
+}
+
+.brief-description p {
+  text-align: center;
+  font-size: 20px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.sponsors {
+  width: 100%;
+  float: left;
+  margin-top: 50px;
+  border-bottom: #E0CDAF solid 2px;
+}
+
+.sponsors h2 {
+  text-align: center;
+  font-family: Copperplate, sans-serif;
+  font-size: 40px;
+  background-color: #E0CDAF;
+  padding: 15px 0;
+}
+
+.sponsor-logos {
+  width: 77%;
+  margin: auto;
+}
+
+.sponsors img {
+  padding: 20px;
+  width: 18%;
+}
+
+footer {
+  width: 100%;
+  float: left;
+  margin-top: 30px;
+  padding: 20px 0;
+}
+
+.sm-logos {
+  width: 11%;
+  margin: 0 auto;
+}
+
+.sm-logos img {
+  width: 30%;
+}
+
+section {
+  width: 100%;
+  float: left;
+  margin: 30px auto;
+  background-color: #DBA72E;
+  padding-bottom: 10px;
+}
+
+section h1, .food-guide h1 {
+  text-align: center;
+  font-size: 50px;
+  margin: 40px auto;
+  border-bottom: black solid 2px;
+}
+
+section h1 {
+  width: 40%;
+}
+
+section p {
+  font-size: 20px;
+  width: 80%;
+  margin: auto;
+  text-align: left;
+  padding: 10px 0;
+}
+
+.cues {
+  text-align: center;
+}
+
+#downarrow {
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+  padding: 0;
+  width: 10%;
+}
+
+.applefest-posters {
+  width: 70%;
+  margin: 0 auto;
+  padding-left: 150px;
+}
+
+.applefest-posters img {
+  width: 20%;
+}
+
+.gallery-header {
+  border-top: 2px solid lightgray;
+  border-bottom: 2px solid lightgray;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.album {
+  float: left;
+  width: 100%;
+}
+
+.gallery-images {
+  margin: 0 auto;
+  width: 95%;
+}
+
+.album img {
+  width: 30%;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+.food-guide h1 {
+  width: 500px;
+  padding-top: 20px;
+}
+
+.food-guide, .entertain-guide, .performance-guide {
+  border: 1px solid black;
+  width: 100%;
+  height: 50%;
+  margin: 0 auto;
+  float: left;
+  padding: 30px 0;
+}
+
+.food-guide {
+  background-color: #FF9C33;
+}
+
+.entertain-guide {
+  background-color: #cfa241;
+}
+
+.performance-guide {
+  background-color: #09d07a;
+}
+
+.food-list, .entertain-list, .perform-list {
+  width: 45%;
+
+}
+
+.food-list, .perform-list {
+  float: right;
+}
+
+.entertain-list {
+  float: left;
+  margin-left: 30px;
+}
+
+.food-list h2, .entertain-list h2, .perform-list h2 {
+  text-align: center;
+  font-family: "Courier New", sans-serif;
+}
+
+.food-list h4 {
+  text-align: center;
+  font-size: 12px;
+  font-style: italic;
+}
+
+.food-list p, .entertain-list p, .perform-list p {
+  font-family: "Trebuchet ms", sans-serif;
+}
+
+.food-list a, .entertain-list a{
+  color: #000799;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.food-list a:hover, .entertain-list a:hover {
+  background-color: yellow;
+}
+
+.food-guide img, .entertain-guide img, .performance-guide img {
+  margin: 10px 30px;
+  width: 40%;
+  display: inline-block;
+}
+
+.food-guide img, .performance-guide img{
+  float: left;
+}
+
+.entertain-guide img {
+  float: right;
+}
+
+#entertainbanner, #schedulebanner {
+  margin: 30px;
+  display: inline-block;
+}
+
+#entertainbanner {
+  float: right;
+}
+
+#schedulebanner {
+  float: left;
+}
+
+.faqs {
+  border: white solid 1px;
+}
+
+.faqs h1 {
+  font-family: Baskerville, sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+figure {
+  width: 100%;
+  margin: 0 2%;
+}
+
+figure img {
+  margin-top: 100px;
+  margin-left: 30px;
+  width: 90%;
+}
+
+.question {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+li {
+  padding: 10px;
+}
+
+#disclaimer {
+  text-align: center;
+  font-style: italic;
+}
+
+/** Styling for laptop screen browser with breakpoint at 1080px**/
+@media screen and (max-width: 1080px) {
+  .address, .dates {
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, serif;
+    margin: 5px;
+  }
+
+  #when, #where{
+    width: 35%;
+    float: left;
+    margin-left: 8%;
+    margin-top: 25px;
+  }
+
+  .event-title {
+    text-align: center;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 35px;
+  }
+
+  .date-heading, .place-heading {
+    width: 100%;
+  }
+
+  .date-heading img, .place-heading img{
+    width: 8%;
+    padding: 0 10px;
+    margin-right: 2%;
+  }
+
+  .place-heading img {
+    margin-left: 12%;
+  }
+
+  .date-heading img {
+    margin-left: 20%;
+  }
+
+  .address-box, .date-box {
+    margin: 0;
+    width: 100%;
+  }
+
+  select {
+    border: 1px solid black;
+    display: inline-block;
+    margin-left: 39%;
+  }
+
+}
+
+/** Styling for laptop screen browser with breakpoint at 950px**/
+@media screen and (max-width: 950px) {
+  .address, .dates {
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial, serif;
+    margin: 5px;
+  }
+
+  #when, #where{
+    width: 35%;
+    float: left;
+    margin-left: 8%;
+    margin-top: 25px;
+  }
+
+  .event-title {
+    text-align: center;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+  .date-heading img, .place-heading img{
+    width: 8%;
+    padding: 0 10px;
+    margin-right: 2%;
+  }
+
+  .place-heading img {
+    margin-left: 12%;
+  }
+
+  .date-heading img {
+    margin-left: 20%;
+  }
+
+  select {
+    border: 1px solid black;
+    display: inline-block;
+    margin-left: 37%;
+  }
+}
+
+/** Styling for laptop screen browser with breakpoint at 820px**/
+@media screen and (max-width: 820px) {
+  .navtabs {
+    display: inline-block;
+    font-size: 85%;
+    padding-left: 3px;
+    padding-right: 10px;
+    padding-top: 25px;
+  }
+
+  .navtabs a, .navtabs a:hover {
+    color: white;
+    text-decoration: none;
+  }
+
+  .navtabs a:hover {
+    background-color: #A2CB6B;
+    padding: 10px;
+  }
+
+  .address, .dates {
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, serif;
+    margin: 5px;
+  }
+
+  .event-title {
+    text-align: center;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+  .date-heading img, .place-heading img{
+    width: 8%;
+    padding: 0 10px;
+  }
+
+  .place-heading img {
+    margin-left: 12%;
+  }
+
+  .date-heading img {
+    margin-left: 20%;
+  }
+
+  .sponsors img {
+    padding: 15px;
+    width: 18%;
+  }
+
+  .gallery-images {
+    margin: 0 auto;
+    width: 98%;
+  }
+
+  .album img {
+    width: 30%;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-bottom: 2px;
+  }
+
+  section h1 {
+    width: 50%;
+  }
+
+  .applefest-posters {
+    width: 70%;
+    margin: 0 auto;
+    padding-left: 100px;
+  }
+
+  .faqs h1 {
+    font-size: 30px;
+  }
+
+  select {
+    border: 1px solid black;
+    display: inline-block;
+    margin-left: 35%;
+  }
+}
+
+/** Styling for laptop screen browser with breakpoint at 610px**/
+@media screen and (max-width: 610px) {
+  #logo {
+    width: 200px;
+    position: relative;
+    margin-left: 30%;
+  }
+
+  .navtabs {
+    display: inline-block;
+    font-size: 13px;
+    padding-top: 25px;
+    padding-right: 30px;
+  }
+
+  .navtabs a, .navtabs a:hover {
+    color: white;
+    text-decoration: none;
+  }
+
+  .navtabs a:hover {
+    background-color: #A2CB6B;
+    padding: 5px;
+  }
+
+  .homebanner img {
+    float: left;
+    display: block;
+    margin-top: 23%;;
+    width: 100%;
+  }
+
+  .place-heading img {
+    margin-left: 5%;
+  }
+
+  .date-heading img {
+    margin-left: 15%;
+  }
+
+  .sponsors img {
+    padding: 10px;
+    width: 18%;
+  }
+
+  .sm-logos {
+    width: 15%;
+    margin: 0 auto;
+  }
+
+  section h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 20%;
+    border-bottom: black solid 2px;
+    width: 60%;
+  }
+
+  .applefest-posters {
+    width: 85%;
+    margin: 0 auto;
+    padding-left: 100px;
+  }
+
+  .food-guide h1 {
+    width: 500px;
+    padding-top: 15%;
+    font-size: 50px;
+  }
+
+  .entertain-list {
+    margin-left: 30px;
+  }
+
+  .entertain-guide img, #schedulebanner {
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 30px;
+    display: inline-block;
+  }
+
+  .entertain-guide img {
+    float: right;
+  }
+
+  figure img {
+    margin-top: 30%;
+  }
+
+  select {
+    border: 1px solid black;
+    display: inline-block;
+    margin-left: 30%;
+  }
+}
+
+/** Styling for laptop screen browser with breakpoint at 542px**/
+@media screen and (max-width: 542px) {
+  .navtabs {
+    display: inline-block;
+    font-size: 15px;
+    padding-top: 25px;
+    padding-right: 20px;
+  }
+
+  .place-heading img {
+    margin-left: 5px;
+    margin-right: 0;
+  }
+
+  .date-heading img {
+    margin-left: 5px;
+  }
+
+  .event-title {
+    font-size: 18px;
+  }
+
+  .homebanner img {
+    float: left;
+    display: block;
+    margin-top: 38%;;
+    width: 100%;
+  }
+
+  .sponsors h2 {
+    font-size: 30px;
+  }
+
+  .sponsors img {
+    padding: 8px;
+    width: 18%;
+  }
+
+  .sm-logos {
+    width: 20%;
+    margin: 0 auto;
+  }
+
+  .album img {
+    width: 30%;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 0;
+  }
+
+  section h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 45%;
+    border-bottom: black solid 2px;
+    width: 80%;
+  }
+
+  .applefest-posters {
+    width: 95%;
+    margin: 0 auto;
+    padding-left: 60px;
+  }
+
+  .food-guide h1 {
+    width: 450px;
+    padding-top: 35%;
+    font-size: 45px;
+  }
+
+  figure img {
+    margin-top: 45%;
+  }
+
+  select {
+    border: 1px solid black;
+    display: inline-block;
+    margin-left: 25%;
+  }
+}
+
+/** Styling for laptop screen browser at smallest size**/
+@media screen and (min-width: 400px) and (max-width: 450px) {
+  .homebanner img {
+    float: left;
+    display: block;
+    margin-top: 45%;;
+    width: 100%;
+  }
+
+  .applefest-posters {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 40px;
+  }
+
+  .food-guide h1 {
+    width: 400px;
+    padding-top: 40%;
+    font-size: 40px;
+  }
+
+  figure img {
+    margin-top: 55%;
+  }
+}
+
+/**Mobile Version Styling**/
+@media screen and (min-device-width: 300px) and (max-device-width: 640px){
+  nav {
+    width: 100%;
+    background-color: #003D71;
+    position: fixed;
+  }
+
+  #logo {
+    width: 153px;
+    float: left;
+    display: inline-block;
+  }
+
+  nav ul {
+    font-family: "Gill Sans", sans-serif;
+    width: 100%;
+    text-align: center;
+  }
+
+  .navtabs {
+    font-size: 10px;
+    padding: 0 5px;
+  }
+
+  .navtabs a, .navtabs a:hover {
+    color: white;
+    text-decoration: none;
+    float: right;
+  }
+
+  .navtabs a:hover {
+    background-color: #A2CB6B;
+    padding: 1px;
+  }
+
+  .homebanner img {
+    float: left;
+    display: block;
+    margin-top: 19%;
+    width: 100%;
+  }
+
+  form {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 3%;
+    float: left;
+    background-color: #CD853F;
+  }
+
+  form h1, form p, legend, fieldset h2 {
+    text-align: center;
+  }
+
+  form p {
+    font-size: 14px;
+  }
+
+  fieldset {
+    margin: 5%;
+    border: 1px solid black;
+  }
+
+  fieldset h2 {
+    font-size: 15px;
+  }
+
+  legend {
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 20%;
+  }
+
+  select {
+    border: 1px solid black;
+    display: block;
+    margin: 0 auto;
+  }
+
+  textarea {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  .poll-buttons {
+    display: block;
+    margin: 2% auto;
+    width: 120px;
+  }
+
+  .poll-buttons input {
+    display: inline-block;
+    background: white;
+    border-radius: 5px;
+  }
+
+  #filled-out {
+    float: left;
+    margin-left: 5%;
+    margin-top: 3%;
+    margin-bottom: 0;
+    font-size: 20px;
+  }
+
+  .address, .dates {
+    text-align: center;
+    width: 100%;
+    font-size: 70%;
+  }
+
+  #when, #where{
+    float: left;
+    margin-top: 25px;
+    margin-left: 10%;
+    width: 120px;
+  }
+
+  .event-title {
+    display: inline-block;
+    font-size: 17px;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+  }
+
+  .date-heading {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .place-heading {
+    width: 100%;
+  }
+
+  .date-box {
+    width: 130px;
+    margin: 0 auto;
+  }
+
+  .address-box {
+    width: 120px;
+    margin: 0 auto;
+  }
+
+  .date-heading img {
+    margin-left: 12%;
+    padding: 0 7px;
+  }
+
+  .place-heading img {
+    margin-left: 5%;
+    padding: 0 3px;
+  }
+
+  .brief-description {
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+    padding: 20px 0;
+    background-color: #CC5543;
+  }
+
+  .brief-description img {
+    padding-bottom: 30px;
+    display: block;
+    margin: auto;
+    width: 20%;
+  }
+
+  .brief-description h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 0;
+  }
+
+  .brief-description p {
+    text-align: center;
+    font-size: 15px;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .sponsors {
+    width: 100%;
+    float: left;
+    margin-top: 15px;
+    border-bottom: #E0CDAF solid 2px;
+  }
+
+  .sponsors h2 {
+    text-align: center;
+    font-family: Copperplate, sans-serif;
+    font-size: 20px;
+    background-color: #E0CDAF;
+    padding: 10px 0;
+  }
+
+  .sponsor-logos {
+    width: 100%;
+    margin: auto;
+  }
+
+  .sponsors img {
+    padding: 20px;
+    width: 25%;
+    margin-left: 10%;
+  }
+
+  footer {
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+    padding: 20px 0;
+  }
+
+  .sm-logos {
+    width: 30%;
+    margin: 0 auto;
+  }
+
+  .sm-logos img {
+    width: 30%;
+  }
+
+  section {
+    width: 100%;
+    float: left;
+    margin: 30px auto;
+    background-color: #DBA72E;
+    padding-bottom: 10px;
+  }
+
+  section h1, .food-guide h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20%;
+    border-bottom: black solid 2px;
+  }
+
+  section h1 {
+    width: 80%;
+  }
+
+  section p {
+    font-size: 15px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  #downarrow {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0;
+    width: 10%;
+  }
+
+  .applefest-posters {
+    width: 70%;
+    margin: 0 auto;
+    padding-left: 40px;
+  }
+
+  .applefest-posters img {
+    width: 40%;
+  }
+
+  .gallery-header {
+    border-top: 2px solid lightgray;
+    border-bottom: 2px solid lightgray;
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  .album {
+    float: left;
+    width: 100%;
+  }
+
+  .gallery-images {
+    margin: 0 auto;
+    width: 95%;
+  }
+
+  .album img {
+    width: 40%;
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+
+  .food-guide h1 {
+    width: 90%;
+    padding-top: 20px;
+  }
+
+  .food-guide, .entertain-guide, .performance-guide {
+    border: 1px solid black;
+    width: 100%;
+    height: 50%;
+    margin: 0 auto;
+    float: left;
+    padding: 30px 0;
+  }
+
+  .food-guide {
+    background-color: #FE8A00;
+  }
+
+  .entertain-guide {
+    background-color: #cfa241;
+  }
+
+  .performance-guide {
+    background-color: #09d07a;
+  }
+
+  .food-list, .entertain-list, .perform-list {
+    width: 130px;
+    margin: 0;
+  }
+
+  .entertain-list {
+    float: left;
+    margin-left: 4%;
+  }
+
+  .food-list, .perform-list {
+    float: right;
+    margin-right: 4%;
+    margin-left: 0;
+  }
+
+  .food-list h2, .entertain-list h2, .perform-list h2 {
+    text-align: center;
+    font-family: "Courier New", sans-serif;
+    font-size: 18px;
+  }
+
+  .food-list p, .entertain-list p, .perform-list p {
+    font-family: "Trebuchet ms", sans-serif;
+    font-size: 8px;
+  }
+
+  .food-list a, .entertain-list a {
+    font-size: 12px;
+  }
+
+  .food-guide img, .entertain-guide img, .performance-guide img {
+    width: 40%;
+    display: inline-block;
+  }
+
+  .food-guide img, .performance-guide img{
+    float: left;
+    margin-left: 5%;
+  }
+
+  .entertain-guide img {
+    float: right;
+    margin-right: 5%;
+  }
+
+  .perf-area {
+    text-decoration: underline;
+  }
+
+  .faqs {
+    border: white solid 1px;
+  }
+
+  figure {
+    width: 100%;
+    margin: 0;
+  }
+
+  figure img {
+    margin-top: 100px;
+    margin-left: 15px;
+    width: 90%;
+  }
+
+  .faqs h1 {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .question {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  li {
+    padding: 8px;
+    font-size: 13px;
+  }
+
+  #disclaimer {
+    text-align: center;
+    font-style: italic;
+    font-size: 8px;
+  }
+}
